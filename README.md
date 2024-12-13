@@ -52,34 +52,19 @@ The dataset used is the [Credit Card Fraud Detection Dataset](https://www.kaggle
 - Logistic Regression
 - Decision Tree
 - Random Forest
-- XGBoost
 - Support Vector Machines (SVM)
 
 ## Results
-- ROC-AUC Score: 0.99 (Random Forest)
-- F1-Score: 0.87 (XGBoost)
-
-## Folder Structure
-
-credit-card-fraud-detection/
-│
-├── data/              # Dataset files
-├── models/            # Saved models
-├── notebooks/         # Jupyter Notebooks for EDA and experiments
-├── src/               # Source code
-├── requirements.txt   # Required Python packages
-├── preprocess.py      # Preprocessing script
-├── train.py           # Training script
-├── evaluate.py        # Evaluation script
-├── visualize.py       # Visualization script
-└── README.md          # Project documentation
-
+- Logistic Regression Accuracy: 0.9985253326779256
+- Decision Tree Accuracy: 0.996892665285629
+- Random Forest Accuracy: 0.9985253326779256
+- SVM Accuracy: 0.9985253326779256
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
 
 ## Acknowledgements
 - Dataset provided by [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
@@ -87,4 +72,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to reach out for any queries or collaboration opportunities. Happy coding! 🚀
+Feel free to reach out for any queries or collaboration opportunities.
